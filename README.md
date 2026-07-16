@@ -5,7 +5,7 @@ An AI-powered stock market analysis application that predicts the probability of
 
 ## 🌐 Live Demo
 
-**Live App:** YOUR_STREAMLIT_LINK_HERE
+**Live App:** (https://ai-trading-assistant.streamlit.app/)
 
 ## 💻 GitHub Repository
 
