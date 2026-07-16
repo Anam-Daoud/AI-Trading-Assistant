@@ -61,10 +61,28 @@ SHAP Explainability and AI.
 # -----------------------------
 st.sidebar.header("Trading Settings")
 
-ticker = st.sidebar.text_input(
-    "Ticker",
-    value="AAPL"
-).upper()
+# -----------------------------
+# Select Company
+# -----------------------------
+stock_options = {
+    "Apple": "AAPL",
+    "Microsoft": "MSFT",
+    "NVIDIA": "NVDA",
+    "Amazon": "AMZN",
+    "Meta": "META",
+    "Tesla": "TSLA",
+    "AMD": "AMD",
+    "Alphabet (Google)": "GOOGL",
+    "Netflix": "NFLX"
+}
+
+selected_company = st.sidebar.selectbox(
+    "Select Company",
+    list(stock_options.keys())
+)
+
+ticker = stock_options[selected_company]
+
 
 interval = st.sidebar.selectbox(
     "Interval",
