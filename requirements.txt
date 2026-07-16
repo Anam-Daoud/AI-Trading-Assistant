@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+ta
+shap
+matplotlib
+twelvedata
+groq
